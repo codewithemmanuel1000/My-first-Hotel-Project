@@ -1,0 +1,135 @@
+
+body{
+    background-color: #fdf6f0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #800020;
+  relative-position:fixed;
+  width:100%;
+}
+
+
+
+nav a {
+  height: 100%;
+  margin-left: 35px;
+  text-decoration: none;
+  color: white; /* fixed from text-color */
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.hotelroom{
+    width:100%;
+    height:300px;
+   object-fit:cover;
+
+}
+
+
+.image-text {
+  text-align: center;
+  color: #111;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(20px, 4vw, 40px);
+  margin: 20px auto;
+  display: inline-block;
+
+  /* typing effect */
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 3.5s steps(40, end) forwards;
+}
+
+
+@keyframes typing {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+form{
+    color:black;
+    text-align:center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  height:250px;
+}
+
+.card {
+  width: 250px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background: ash;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1)
+  margin-top:10px;
+}
+
+.card1 {
+  width: 250px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background: ash;
+  padding: 0;
+}
+
+.card2 {
+  width: 250px; /* or any fixed width */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background: ash;
+  padding: 0;
+}
+
+
+.card img {
+  width: 100%;
+  height: 200px; /* or adjust to your preferred height */
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+  }
+  
+  .button{
+      width:100%;
+     
+  }
+  
+ 
+footer {
+  background-color: #800020; /* or any dark footer color */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+
